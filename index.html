@@ -46,6 +46,9 @@
 										<a href="right-sidebar.html">Our Team</a>
 									</li>
 									<li>
+										<a href="supplies.html">Current Supplies</a>
+									</li>
+									<li>
 										<a href="#footer">Contact</a>
 									</li>
 								</ul>
@@ -88,7 +91,7 @@
 								</div>
 								<header>
 									<h2>Developing Countries Health Centers <br />
-									continue to require new suppplies.</h2>
+									continue to require new supplies.</h2>
 								</header>
 								<br></br>
 								<p>Lack of Access to supplies make groups reuse supplies in order to take care of the next patient.</p>
@@ -147,25 +150,22 @@
 						</header>
 						<div class="row">
 							<section class="col-6 col-12-narrower">
-								<form method="post" action="#">
+								<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/mwkrbqak" method="post">
 									<div class="row gtr-50">
 										<div class="col-6 col-12-mobile">
-											<input name="name" placeholder="Name" type="text" />
-										</div>
-										<div class="col-6 col-12-mobile">
-											<input name="email" placeholder="Email" type="text" />
-										</div>
-										<div class="col-12">
-											<textarea name="message" placeholder="Message"></textarea>
-										</div>
-										<div class="col-12">
-											<ul class="actions">
-												<li><input type="submit" value="Send Message" /></li>
-												<li><input type="reset" value="Clear form" /></li>
-											</ul>
-										</div>
-									</div>
-								</form>
+								<fieldset id="fs-frm-inputs">
+										<label for="full-name">Full Name</label>
+										<input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+										<label for="email-address">Email Address</label>
+										<input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+										<label for="message">Message</label>
+										<textarea rows="5" name="message" id="message" placeholder="Please give your contact information and what supplies you would like to receive or donate. Thank you!" required=""></textarea>
+										<input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+								</fieldset>
+							<input type="submit" value="Submit">
+						</div>
+					</div>
+						</form>
 							</section>
 						</div>
 					</div>
