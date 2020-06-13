@@ -37,64 +37,12 @@
 </head>
 
 <body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
 
     <!-- Humberger Begin -->
-    <div class="humberger__menu__overlay"></div>
-    <div class="humberger__menu__wrapper">
-        <div class="humberger__menu__logo">
-            <a href="#"><img src="img/logo.png" alt=""></a>
-        </div>
-        <div class="humberger__menu__cart">
-            <ul>
-                <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
-                <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
-            </ul>
-            <div class="header__cart__price">item: <span>$150.00</span></div>
-        </div>
-        <div class="humberger__menu__widget">
-            <div class="header__top__right__language">
-                <img src="img/language.png" alt="">
-                <div>English</div>
-                <span class="arrow_carrot-down"></span>
-                <ul>
-                    <li><a href="#">Spanis</a></li>
-                    <li><a href="#">English</a></li>
-                </ul>
-            </div>
-            <div class="header__top__right__auth">
-                <a href="#"><i class="fa fa-user"></i> Login</a>
-            </div>
-        </div>
-        <nav class="humberger__menu__nav mobile-menu">
-            <ul>
-                <li class="active"><a href="./index.html">Home</a></li>
-                <li><a href="./shop-grid.html">Shop</a></li>
-                <li><a href="#">Pages</a>
-                    <ul class="header__menu__dropdown">
-                        <li><a href="./shop-details.html">Shop Details</a></li>
-                        <li><a href="./shoping-cart.html">Shoping Cart</a></li>
-                        <li><a href="./checkout.html">Check Out</a></li>
-                        <li><a href="./blog-details.html">Blog Details</a></li>
-                    </ul>
-                </li>
-                <li><a href="./blog.html">Blog</a></li>
-                <li><a href="./contact.html">Contact</a></li>
-            </ul>
-        </nav>
-        <div id="mobile-menu-wrap"></div>
-        <div class="header__top__right__social">
-            <a href="#"><i class="fa fa-facebook"></i></a>
-            <a href="#"><i class="fa fa-twitter"></i></a>
-            <a href="#"><i class="fa fa-linkedin"></i></a>
-            <a href="#"><i class="fa fa-pinterest-p"></i></a>
-        </div>
-        <div class="humberger__menu__contact">
-            <ul>
-                <li><i class="fa fa-envelope"></i> hello@colorlib.com</li>
-                <li>Free Shipping for all Order of $99</li>
-            </ul>
-        </div>
-    </div>
     <!-- Humberger End -->
 
     <!-- Header Section Begin -->
@@ -111,22 +59,25 @@
 							</h1>
 
 						<!-- Nav -->
-							<nav id="nav">
-								<ul>
-									<li>
-										<a href="index.html">Home</a>
-									</li>
-									<li>
-										<a href="aboutus.html">About Us</a>
-									</li>
-									<li class="break">
-										<a href="right-sidebar.html">Our Team</a>
-									</li>
-									<li>
-										<a href="#footer">Contact</a>
-									</li>
-								</ul>
-							</nav>
+            <nav id="nav">
+              <ul>
+                <li>
+                  <a href="index.html">Home</a>
+                </li>
+                <li>
+                  <a href="aboutus.html">About Us</a>
+                </li>
+                <li>
+                  <a href="right-sidebar.html">Our Team</a>
+                </li>
+                <li>
+                  <a href="supplies.html">Current Supplies</a>
+                </li>
+                <li>
+                  <a href="#footer">Contact</a>
+                </li>
+              </ul>
+            </nav>
 
 					</div>
 
@@ -289,9 +240,9 @@
     <div class="banner">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-sm-6 col-xl-6 col-md-12">
+                <div class="col-lg-12 col-sm-12 col-xl-12 col-md-12">
                     <div class="banner__pic" align="center">
-                      <img src="img/banner/banner-1.png" href="#footer" alt="" class="rounded img-fluid">
+                      <img src="img/banner/banner-1.png" alt="" class="rounded img-fluid" href="index.html/#Footer">
                     </div>
                 </div>
 </div>
@@ -560,10 +511,10 @@
 							<p>Please reach out to us at <a href="medcycl@gmail.com"/>medcycl@gmail.com</a> if you have any questions or would like to receive donations.</p>
 						</header>
 						<div class="row">
-							<section class="col-6 col-12-narrower">
+							<section class="col-12 col-12-narrower">
                 <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/mwkrbqak" method="post">
   								<div class="row gtr-50">
-  									<div class="col-6 col-12-mobile">
+  									<div class="col-12 col-12-mobile">
   							<fieldset id="fs-frm-inputs">
   									<label for="full-name">Full Name</label>
   									<input type="text" name="name" id="full-name" placeholder="First and Last" required="">
@@ -573,6 +524,7 @@
   									<textarea rows="5" name="message" id="message" placeholder="Please give your contact information and what supplies you would like to receive or donate. Thank you!" required=""></textarea>
   									<input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
   							</fieldset>
+                <br>
   						<input type="submit" value="Submit">
   					</div>
   				</div>
