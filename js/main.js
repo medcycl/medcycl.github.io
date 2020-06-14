@@ -16,7 +16,7 @@
     --------------------*/
     $(window).on('load', function () {
         $(".loader").fadeOut();
-        $("#preloder").delay(300).fadeOut("slow");
+        $("#preloder").delay(200).fadeOut("slow");
 
         /*------------------
             Gallery filter
@@ -34,9 +34,12 @@
     /*------------------
         Background Set
     --------------------*/
+    $(window).on('load',function(){
+
     $('.set-bg').each(function () {
         var bg = $(this).data('setbg');
-        $(this).css('background-image', 'url(' + bg + ')');
+        $(this).css('background-image', 'url(' + bg + ')'
+      );
     });
 
     //Humberger Menu
@@ -51,6 +54,8 @@
         $(".humberger__menu__overlay").removeClass("active");
         $("body").removeClass("over_hid");
     });
+
+  });
 
     /*------------------
 		Navigation
