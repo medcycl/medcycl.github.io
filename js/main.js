@@ -68,6 +68,7 @@
     /*-----------------------
         Categories Slider
     ------------------------*/
+    $(window).on('load',function(){
     $(".categories__slider").owlCarousel({
         loop: true,
         margin: 0,
@@ -224,6 +225,7 @@
             }
         }
         $button.parent().find('input').val(newVal);
+    });
     });
 
 })(jQuery);
