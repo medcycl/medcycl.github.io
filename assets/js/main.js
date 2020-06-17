@@ -44,14 +44,13 @@
 				.appendTo($body);
 
 		// Panel.
-			$(
-				'<div id="navPanel">' +
-					'<nav>' +
-						'<a href="index.html" class="link depth-0">Home</a>' +
-						$('#nav').navList() +
-					'</nav>' +
-				'</div>'
-			)
+		$(
+			'<div id="navPanel">' +
+				'<nav>' +
+					$('#nav').navList() +
+				'</nav>' +
+			'</div>'
+		)
 				.appendTo($body)
 				.panel({
 					delay: 500,
