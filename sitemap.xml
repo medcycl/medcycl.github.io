@@ -8,28 +8,28 @@
 
 
 <url>
-  <loc>https://medcycl.org/</loc>
-  <lastmod>2020-05-25T20:17:30+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://medcycl.guthub.io</loc>
-  <lastmod>2020-05-25T20:17:30+00:00</lastmod>
+  <loc>https://medcycl.github.io/</loc>
+  <lastmod>2020-06-17T04:26:17+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://medcycl.github.io/index.html</loc>
-  <lastmod>2020-05-25T20:17:30+00:00</lastmod>
+  <lastmod>2020-06-17T04:26:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://medcycl.github.io/aboutus.html</loc>
-  <lastmod>2020-05-25T20:17:30+00:00</lastmod>
+  <lastmod>2020-06-17T04:26:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://medcycl.github.io/right-sidebar.html</loc>
-  <lastmod>2020-05-25T20:17:30+00:00</lastmod>
+  <lastmod>2020-06-17T04:26:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://medcycl.github.io/supplies.html</loc>
+  <lastmod>2020-06-17T04:26:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
